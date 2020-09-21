@@ -1,0 +1,27 @@
+{
+  "name": "node-on-syno-test",
+  "version": "1.0.0",
+  "description": "\"Hello World\" demo application using Express.",
+  "main": "app.js",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christoph-luebbe/node-on-syno-test.git"
+  },
+  "author": "Kees C. Bakker (https://keestalkstech.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KeesCBakker/synology-ci-cd-nodejs-demo/issues"
+  },
+  "homepage": "https://github.com/KeesCBakker/synology-ci-cd-nodejs-demo#readme"
+}
